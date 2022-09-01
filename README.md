@@ -1,2 +1,2 @@
 # madLibsApp
-JavaScript  sprint course assignment
+BitDegree - JavaScript sprint course assignment
