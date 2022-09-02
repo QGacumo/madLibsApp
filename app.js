@@ -2,9 +2,9 @@
 
 let originalStory = `In 1837, Charles Babbage proposed the first general mechanical computer, the Analytical Engine. The Analytical Engine contained an ALU (Arithmetic Logic Unit), basic flow control, punch cards (inspired by the Jacquard Loom), and integrated memory`;
 
-const protagonistName = "Charles Babbage";
-
 let userInputs = [];
+
+const numberOfQuestions = 3;
 
 console.log(originalStory);
 
@@ -15,6 +15,6 @@ console.log(originalStory);
 
 
 
-
-/*In 1837, Charles Babbage proposed the first general mechanical computer, the Analytical Engine. The Analytical Engine contained an ALU (Arithmetic Logic Unit), basic flow control, punch cards (inspired by the Jacquard Loom), and integrated memory
+/*originalStory
+In 1837, Charles Babbage proposed the first general mechanical computer, the Analytical Engine. The Analytical Engine contained an ALU (Arithmetic Logic Unit), basic flow control, punch cards (inspired by the Jacquard Loom), and integrated memory
 */
