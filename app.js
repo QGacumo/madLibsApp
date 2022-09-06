@@ -2,9 +2,9 @@
 
 let originalStory = `In 1837, Charles Babbage proposed the first general mechanical computer, the Analytical Engine. The Analytical Engine contained an ALU (Arithmetic Logic Unit), basic flow control, punch cards (inspired by the Jacquard Loom), and integrated memory`;
 
-let userInputs = [0, 1, 2, 3];
+let userInputs = [];
 
-console.log(`In 1837, Charles ${userInputs[0]} proposed the first general mechanical ${userInputs[1]}, the Analytical Engine. The ${userInputs[2]} Engine contained an ALU (Arithmetic Logic Unit), basic flow control, punch cards (inspired by the Jacquard Loom), and ${userInputs[3]} memory`)
+let modifiedStory = `In 1837, Charles ${userInputs[0]} proposed the first general mechanical ${userInputs[1]}, the Analytical Engine. The ${userInputs[2]}, and integrated memoryEngine contained an ALU (Arithmetic Logic Unit), basic flow control, punch cards (inspired by the Jacquard Loom), and ${userInputs[3]} memory`;
 
 let numberOfQuestions = 3;
 
@@ -17,12 +17,19 @@ let questionArray =[
 let questionCounter = 0;
 
 for(let i = numberOfQuestions; i >= 0; i--){
-    console.log(questionArray[questionCounter]);
+    userInputs.push(prompt(questionArray[questionCounter] + `${i} questions left)`));
     questionCounter ++;
-    console.log(i);
 }
 
-console.log(questionCounter);
+/*
+for(let i = numberOfQuestions; i >= 0; i--){
+    //console.log(questionArray[questionCounter]);
+    prompt(questionArray[questionCounter] + `(${i} questions left)`);
+    questionCounter ++;
+    //console.log(i);
+}*/
+
+//console.log(questionCounter);
 
 
 
