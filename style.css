@@ -1,0 +1,29 @@
+* {
+    margin: 0px;;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: gray;
+}
+
+.container {
+    height: 500px;
+    width: 100%;
+    margin: 80px;
+}
+
+.container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 43px;
+    font-weight: 800;
+    color: white;
+}
+
+.container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+}
